@@ -1,0 +1,49 @@
+.header{
+    display:flex;
+    justify-content:center;
+    flex-direction: column;
+    align-items:center;
+    height : "300px";
+    padding:"20px 0";
+    width :"full";
+    background-color: #000;
+}
+
+input {
+    margin :12px 6px;
+    border-radius: 16px;
+    padding:8px 12px;
+}
+
+button {
+    padding:5px 12px;
+    border-radius: 16px;
+    background-color: rgb(14, 167, 14);
+    color:white;
+    outline: none;
+    border: none;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+button:hover{
+    transform: scale(1.05);
+}
+
+a{
+    color:inherit;
+    list-style: none;
+    text-decoration: none;
+}
+
+img{
+    height: 50px;
+    width: 170px;
+    margin:8px 0;
+}
+
+.login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
